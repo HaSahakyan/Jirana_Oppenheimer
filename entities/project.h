@@ -75,6 +75,8 @@ public:
         std::string result;
         result += "Task ";
         result += m_count;
+        result += m_count;
+        result += "\n";
         counter();
         result += m_name;
         result += delimiter;
